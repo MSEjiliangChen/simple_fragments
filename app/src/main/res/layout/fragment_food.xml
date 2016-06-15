@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.likeweixin.myfrag.FoodFragment">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/content_of_food"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#3F00FF00"/>
+
+</FrameLayout>

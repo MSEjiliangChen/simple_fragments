@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.likeweixin.MainActivity">
+
+    <fragment
+        android:id="@+id/id_title"
+        android:name="com.example.user.likeweixin.myfrag.TitleFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp" />
+
+    <include
+        android:id="@+id/id_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottom_bar" />
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/id_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/id_bottom"
+        android:layout_below="@id/id_title"/>
+</RelativeLayout>

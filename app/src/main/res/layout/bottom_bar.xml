@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:textColor="#000">
+    <Button
+        android:id="@+id/friends_btn"
+        android:text="@string/friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#fff">
+    </Button>
+    <Button
+        android:id="@+id/foods_btn"
+        android:text="@string/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#fff">
+    </Button>
+    <Button
+        android:id="@+id/games_btn"
+        android:text="@string/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#fff">
+    </Button>
+</LinearLayout>
